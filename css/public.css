@@ -1,0 +1,118 @@
+@charset "gb2312";
+html,body,div,table,th,td,p,ul,li,aa,dl,dt,dd{ font-family:Arial, Helvetica, sans-serif; font-size: 12px; text-decoration: none; padding: 0px; margin:0px; color:#787878}
+body{ text-align:center}
+div{ overflow:hidden}
+a{ text-decoration:none; outline:none; }
+table,th,td{ border-collapse:collapse; border-spacing:0px; vertical-align:top}
+ul,li{ list-style-type:none; background-repeat:no-repeat}
+#container{ margin:0px auto;width:1003px; text-align:left}
+a:link{ color:#787878}/*常规，非访问超链接*/
+a:visited{ color:#787878}/*访问超链接*/
+a:hover { color:#333333; text-decoration: none}/*访问者操作鼠标通过时的链接 */
+a:active{ color:#990000; text-decoration:underline}/*点击链接*/
+img{ border:none}
+
+/*分页样式*/
+#Divpage{width:290px; margin:0 auto; text-align:center; padding-left:10px; padding-top:18px;}
+#Divpage li{ float:left; width:auto; padding:2px;}
+#Divpage li a { color:#333; font-size:12px; }
+#Divpage li a:visited { color:#333; font-size:12px; }
+#Divpage li a:hover { color:#0079b8; font-size:12px; }
+
+
+
+
+
+/*sidebar类别*/
+.proLi{ width:160px; line-height:30px; border-bottom:#CCCCCC solid 1px; display:block; background:url(../images/li.jpg) no-repeat 30px 50%; padding-left:50px; margin-left:32px;}
+
+a.nav{ width:100px; text-align:center; display:block; float:left; color:#FFFFFF; line-height:30px;}
+
+
+#left_zyyw{
+margin-left:10px;
+padding-top:10px;
+width:170px;
+}
+
+#left_zyyw li{
+line-height:30px;
+background:url(../images/ff.jpg) no-repeat 0px 9px;
+font-size:13px;
+}
+
+#left_lxwm{
+margin-left:10px;
+padding-top:20px;
+width:170px;
+
+}
+
+#left_lxwm p{
+line-height:30px;
+font-size:14px;
+color:#444;
+}
+
+#footer{ 
+padding-top:25px;
+}
+
+#footer p{ 
+color:#fff;
+font-weight:bold;
+text-align:center;
+}
+#nav{
+margin-left:260px;
+}
+
+#nav li{
+float:left;
+color:#fff;
+font-size:15px;
+font-weight:bold;
+width:100px;
+padding-top:10px;
+}
+#nav li a{
+color:#fff;
+}
+
+#neiye_main{
+margin:10px;
+}
+
+#neiye_text{
+line-height:25px;
+}
+
+#index_gsjj{
+width:180px;
+padding-top:13px;
+margin-left:5px;
+}
+
+#index_gsjj p{
+line-height:22px;
+}
+
+#index_news{
+padding-top:10px;
+margin-left:10px;
+}
+
+#index_news li{
+line-height:20px;
+font-size:13px;
+}
+#head_ff{
+margin:0px 10px;
+}
+#head_ff li{
+color:#444;
+
+}
+
+
+
